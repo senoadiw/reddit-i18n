@@ -36,11 +36,11 @@ msgstr "Pesan anda telah dikirimkan"
 
 #: r2/controllers/api.py:357
 msgid "no title found"
-msgstr ""
+msgstr "judul tidak ditemukan"
 
 #: r2/controllers/api.py:537 r2/controllers/promotecontroller.py:373
 msgid "added"
-msgstr ""
+msgstr "telah ditambahkan"
 
 #: r2/controllers/api.py:564 r2/controllers/api.py:1073
 #: r2/controllers/api.py:1219 r2/controllers/api.py:1327
@@ -56,7 +56,7 @@ msgstr "telah disimpan"
 
 #: r2/controllers/api.py:596
 msgid "you should be getting a verification email shortly."
-msgstr ""
+msgstr "anda akan segera mendapatkan email verifikasi."
 
 #: r2/controllers/api.py:598
 msgid "your email has been updated"
@@ -119,7 +119,7 @@ msgstr ""
 
 #: r2/controllers/api.py:1660
 msgid "try again tomorrow"
-msgstr ""
+msgstr "coba lagi besok"
 
 #: r2/controllers/api.py:1905 r2/controllers/api.py:2066
 msgid "invalid css class"
@@ -160,7 +160,7 @@ msgstr "kirim"
 
 #: r2/controllers/embed.py:65
 msgid "edit this page"
-msgstr ""
+msgstr "sunting halaman ini"
 
 #: r2/controllers/embed.py:66
 msgid "yes, it's okay!"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: r2/controllers/embed.py:67
 msgid "just read this first."
-msgstr ""
+msgstr "baca ini saja dulu."
 
 #: r2/controllers/embed.py:83 r2/lib/menus.py:88 r2/lib/pages/pages.py:418
 #: r2/templates/frametoolbar.html:107
@@ -182,19 +182,19 @@ msgstr "terlarang (%(domain)s)"
 
 #: r2/controllers/error.py:135
 msgid "this reddit has been banned"
-msgstr ""
+msgstr "reddit ini telah di-ban"
 
 #: r2/controllers/errors.py:27
 msgid "please login to do that"
-msgstr ""
+msgstr "mohon login untuk melakukan itu"
 
 #: r2/controllers/errors.py:28
 msgid "you need to set a valid email address to do that."
-msgstr ""
+msgstr "anda membutuhkan alamat email yang valid untuk melakukan itu."
 
 #: r2/controllers/errors.py:29
 msgid "a url is required"
-msgstr ""
+msgstr "sebuah url diperlukan"
 
 #: r2/controllers/errors.py:30
 msgid "you should check that url"
@@ -202,7 +202,7 @@ msgstr "sebaiknya anda cek urlnya"
 
 #: r2/controllers/errors.py:31
 msgid "care to try these again?"
-msgstr ""
+msgstr "ingin mencoba ini lagi?"
 
 #: r2/controllers/errors.py:32
 msgid "invalid user name"
@@ -214,11 +214,11 @@ msgstr "username telah ada yang pakai"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "username tersebut telah diambil oleh akun yang ter-delete"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "anda tidak dapat mengirim ke user yang telah anda blokir"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
@@ -234,23 +234,23 @@ msgstr ""
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
-msgstr ""
+msgstr "tautan yang anda komentari telah di-delete"
 
 #: r2/controllers/errors.py:40
 msgid "that comment has been deleted"
-msgstr ""
+msgstr "komentar tesebut telah di-delete"
 
 #: r2/controllers/errors.py:41
 msgid "that element has been deleted"
-msgstr ""
+msgstr "elemen tersebut telah di-delete"
 
 #: r2/controllers/errors.py:42
 msgid "that password is unacceptable"
-msgstr ""
+msgstr "password tersebut tidak dapat diterima"
 
 #: r2/controllers/errors.py:43
 msgid "invalid password"
-msgstr "password anda salah"
+msgstr "password anda tidak valid"
 
 #: r2/controllers/errors.py:44
 msgid "passwords do not match"
@@ -291,7 +291,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:54
 msgid "you used a character here that we can't handle"
-msgstr ""
+msgstr "anda menggunakan karakter yang tidak dapat kami tangani"
 
 #: r2/controllers/errors.py:55
 #, python-format
@@ -306,11 +306,11 @@ msgstr "link tersebut sudah pernah dikirim"
 
 #: r2/controllers/errors.py:57
 msgid "that reddit already exists"
-msgstr ""
+msgstr "reddit tersebut sudah ada"
 
 #: r2/controllers/errors.py:58
 msgid "that reddit doesn't exist"
-msgstr ""
+msgstr "reddit tersebut tidak ada"
 
 #: r2/controllers/errors.py:59
 msgid "you aren't allowed to post there."
@@ -327,7 +327,7 @@ msgstr "nama itu gak bakal jalan "
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "anda terlalu sering melakukan itu. coba lagi dalam %(time)s."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
@@ -344,16 +344,16 @@ msgstr "pilihan tersebut tidak benar"
 #: r2/controllers/errors.py:70
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
-msgstr ""
+msgstr "email berikut tidak valid: %(emails)s"
 
 #: r2/controllers/errors.py:71
 msgid "please enter at least one email address"
-msgstr ""
+msgstr "mohon masukkan paling sedikit satu alamat email"
 
 #: r2/controllers/errors.py:72
 #, python-format
 msgid "please only share to %(num)s emails at a time."
-msgstr ""
+msgstr "mohon hanya berbagi ke %(num)s email sekaligus."
 
 #: r2/controllers/errors.py:73
 #, python-format
@@ -397,7 +397,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:81
 msgid "we need something here"
-msgstr ""
+msgstr "kami membutuhkan sesuatu disini"
 
 #: r2/controllers/errors.py:82
 msgid "we've never seen that code before"
@@ -433,7 +433,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
-msgstr ""
+msgstr "akses ditolak oleh user"
 
 #: r2/controllers/errors.py:91
 msgid "please confirm the form"
@@ -441,51 +441,51 @@ msgstr ""
 
 #: r2/controllers/feedback.py:40
 msgid "help translate reddit into your language"
-msgstr ""
+msgstr "bantu terjemahkan reddit kedalam bahasa anda"
 
 #: r2/controllers/feedback.py:41 r2/lib/menus.py:140
 msgid "help translate"
-msgstr ""
+msgstr "bantu terjemahkan"
 
 #: r2/controllers/front.py:121
 msgid "self service help"
-msgstr ""
+msgstr "bantuan swalayan"
 
 #: r2/controllers/front.py:304
 msgid "no comments (yet)"
-msgstr ""
+msgstr "tidak (belum) ada komentar"
 
 #: r2/controllers/front.py:306
 #, python-format
 msgid "all %d comments"
-msgstr ""
+msgstr "semua %d komentar"
 
 #: r2/controllers/front.py:308
 #, python-format
 msgid "top %d comments"
-msgstr ""
+msgstr "%d komentar teratas"
 
 #: r2/controllers/front.py:331
 #, python-format
 msgid "show all %d"
-msgstr ""
+msgstr "tampilkan semua %d"
 
 #: r2/controllers/front.py:333
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "tampilkan %d"
 
 #: r2/controllers/front.py:349
 msgid "create a reddit"
-msgstr "buat redit"
+msgstr "buat reddit"
 
 #: r2/controllers/front.py:351 r2/templates/createsubreddit.html:49
 msgid "create a community"
-msgstr ""
+msgstr "buat komunitas"
 
 #: r2/controllers/front.py:529 r2/lib/menus.py:142
 msgid "awards"
-msgstr ""
+msgstr "penghargaan"
 
 #: r2/controllers/front.py:559 r2/lib/menus.py:118
 msgid "related"
@@ -493,7 +493,7 @@ msgstr "berhubungan"
 
 #: r2/controllers/front.py:577
 msgid "other discussions"
-msgstr ""
+msgstr "diskusi lainnya"
 
 #: r2/controllers/front.py:596 r2/controllers/front.py:640
 msgid "search results"
@@ -510,7 +510,7 @@ msgstr "password"
 
 #: r2/controllers/front.py:818 r2/controllers/front.py:834
 msgid "verify email"
-msgstr ""
+msgstr "verifikasi email"
 
 #: r2/controllers/front.py:864 r2/templates/loginformwide.html:51
 msgid "reset password"
@@ -518,15 +518,15 @@ msgstr "reset password"
 
 #: r2/controllers/front.py:1012 r2/controllers/post.py:161
 msgid "opt out"
-msgstr ""
+msgstr "tidak ikut serta"
 
 #: r2/controllers/front.py:1012 r2/controllers/post.py:171
 msgid "welcome back"
-msgstr ""
+msgstr "selamat datang kembali"
 
 #: r2/controllers/front.py:1042
 msgid "thanks"
-msgstr ""
+msgstr "terima kasih"
 
 #: r2/controllers/front.py:1075 r2/controllers/front.py:1097
 #: r2/lib/menus.py:101 r2/templates/gold.html:83
@@ -543,11 +543,11 @@ msgstr ""
 
 #: r2/controllers/ipn.py:449
 msgid "thanks for buying reddit gold!"
-msgstr ""
+msgstr "terima kasih sudah membeli reddit gold!"
 
 #: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
-msgstr ""
+msgstr "terima kasih sudah membeli creddits!"
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
@@ -555,12 +555,12 @@ msgstr ""
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
-msgstr ""
+msgstr "terima kasih telah memberikan reddit gold!"
 
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr ""
+msgstr "Hadiah anda ke %s telah terkirim."
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
@@ -586,27 +586,27 @@ msgstr ""
 #: r2/controllers/listingcontroller.py:503
 #, python-format
 msgid "comments by %(user)s"
-msgstr ""
+msgstr "dikomentari oleh %(user)s"
 
 #: r2/controllers/listingcontroller.py:504
 #, python-format
 msgid "submitted by %(user)s"
-msgstr ""
+msgstr "dikirimkan oleh %(user)s"
 
 #: r2/controllers/listingcontroller.py:505
 #, python-format
 msgid "liked by %(user)s"
-msgstr ""
+msgstr "disukai oleh %(user)s"
 
 #: r2/controllers/listingcontroller.py:506
 #, python-format
 msgid "disliked by %(user)s"
-msgstr ""
+msgstr "tidak disukai oleh %(user)s"
 
 #: r2/controllers/listingcontroller.py:507
 #, python-format
 msgid "hidden by %(user)s"
-msgstr ""
+msgstr "disembunyikan oleh %(user)s"
 
 #: r2/controllers/listingcontroller.py:508
 #, python-format
@@ -622,15 +622,15 @@ msgstr "semua"
 #: r2/controllers/listingcontroller.py:631
 #: r2/templates/printablebuttons.html:332
 msgid "unread"
-msgstr ""
+msgstr "belum dibaca"
 
 #: r2/controllers/listingcontroller.py:624
 msgid "comment replies"
-msgstr ""
+msgstr "balasan komentar"
 
 #: r2/controllers/listingcontroller.py:625
 msgid "post replies"
-msgstr ""
+msgstr "balasan post"
 
 #: r2/controllers/listingcontroller.py:638 r2/templates/redditheader.html:88
 msgid "messages"
@@ -646,15 +646,15 @@ msgstr "reddit:"
 
 #: r2/controllers/listingcontroller.py:871
 msgid "comments"
-msgstr ""
+msgstr "komentar"
 
 #: r2/controllers/oauth2.py:42
 msgid "My Identity"
-msgstr ""
+msgstr "Identitas Saya"
 
 #: r2/controllers/oauth2.py:43
 msgid "Access my reddit username and signup date."
-msgstr ""
+msgstr "Akses username reddit dan tanggal pendaftaran saya."
 
 #: r2/controllers/post.py:135
 msgid "over 18?"
@@ -662,7 +662,7 @@ msgstr "diatas 18?"
 
 #: r2/controllers/promotecontroller.py:48
 msgid "promoted by you"
-msgstr ""
+msgstr "dipromosikan oleh anda"
 
 #: r2/controllers/promotecontroller.py:443
 msgid "failed to authenticate card.  sorry."
@@ -674,7 +674,7 @@ msgstr ""
 
 #: r2/controllers/reddit_base.py:870
 msgid "search failed"
-msgstr ""
+msgstr "pencarian gagal"
 
 #: r2/controllers/validator/validator.py:1476
 msgid "please provide a first name"
@@ -750,7 +750,7 @@ msgstr "direkomendasikan"
 
 #: r2/lib/menus.py:52
 msgid "promote"
-msgstr ""
+msgstr "promosikan"
 
 #: r2/lib/menus.py:56
 msgid "hot"
@@ -850,7 +850,7 @@ msgstr "preferensi"
 
 #: r2/lib/menus.py:89
 msgid "blog"
-msgstr ""
+msgstr "blog"
 
 #: r2/lib/menus.py:90 r2/templates/utils.html:424
 msgid "logout"
@@ -858,11 +858,11 @@ msgstr "keluar"
 
 #: r2/lib/menus.py:93
 msgid "contact us"
-msgstr ""
+msgstr "hubungi kami"
 
 #: r2/lib/menus.py:94
 msgid "firefox extension"
-msgstr ""
+msgstr "ekstensi firefox"
 
 #: r2/lib/menus.py:95
 msgid "buttons"
@@ -886,11 +886,11 @@ msgstr "toko"
 
 #: r2/lib/menus.py:100
 msgid "advertise"
-msgstr ""
+msgstr "beriklan"
 
 #: r2/lib/menus.py:102
 msgid "subreddits"
-msgstr ""
+msgstr "subreddit"
 
 #: r2/lib/menus.py:105 r2/templates/promotelinkform.html:317
 msgid "options"
@@ -915,7 +915,7 @@ msgstr "hapus"
 
 #: r2/lib/menus.py:112
 msgid "compose"
-msgstr "membuat "
+msgstr "membuat"
 
 #: r2/lib/menus.py:113
 msgid "inbox"
@@ -937,7 +937,7 @@ msgstr "detil"
 #: r2/lib/menus.py:120
 #, python-format
 msgid "other discussions (%(num)s)"
-msgstr ""
+msgstr "diskusi lainnya (%(num)s)"
 
 #: r2/lib/menus.py:121
 msgid "shirt"
@@ -966,7 +966,7 @@ msgstr ""
 
 #: r2/lib/menus.py:129
 msgid "edit moderators"
-msgstr ""
+msgstr "sunting moderator"
 
 #: r2/lib/menus.py:130
 msgid "moderator mail"
@@ -982,7 +982,7 @@ msgstr "ban pengguna"
 
 #: r2/lib/menus.py:134
 msgid "edit user flair"
-msgstr ""
+msgstr "sunting flair user"
 
 #: r2/lib/menus.py:136
 msgid "popular"
@@ -1003,15 +1003,15 @@ msgstr ""
 
 #: r2/lib/menus.py:143
 msgid "ads"
-msgstr ""
+msgstr "iklan"
 
 #: r2/lib/menus.py:144
 msgid "usage"
-msgstr ""
+msgstr "penggunaan"
 
 #: r2/lib/menus.py:145
 msgid "promoted"
-msgstr ""
+msgstr "dipromosikan"
 
 #: r2/lib/menus.py:146
 msgid "reporters"
@@ -1019,7 +1019,7 @@ msgstr "reporter"
 
 #: r2/lib/menus.py:147
 msgid "reported links"
-msgstr ""
+msgstr "tautan yang dilaporkan"
 
 #: r2/lib/menus.py:148
 msgid "reported authors"
@@ -1032,7 +1032,7 @@ msgstr "info"
 #: r2/lib/menus.py:150 r2/templates/printablebuttons.html:164
 #: r2/templates/sharelink.html:94
 msgid "share"
-msgstr ""
+msgstr "berbagi"
 
 #: r2/lib/menus.py:152
 msgid "overview"
@@ -1060,19 +1060,19 @@ msgstr "dilaporkan"
 
 #: r2/lib/menus.py:160
 msgid "self-serve advertising"
-msgstr ""
+msgstr "beriklan secara swalayan"
 
 #: r2/lib/menus.py:161
 msgid "create promotion"
-msgstr ""
+msgstr "buat promosi"
 
 #: r2/lib/menus.py:162
 msgid "my promoted links"
-msgstr ""
+msgstr "link saya yang dipromosikan"
 
 #: r2/lib/menus.py:163
 msgid "all promoted links"
-msgstr ""
+msgstr "semua link yang dipromosikan"
 
 #: r2/lib/menus.py:164
 msgid "unseen"
@@ -1108,7 +1108,7 @@ msgstr ""
 
 #: r2/lib/menus.py:414
 msgid "sorted by"
-msgstr ""
+msgstr "disortir menurut"
 
 #: r2/lib/menus.py:480
 msgid "kind"
@@ -1339,7 +1339,7 @@ msgstr ""
 
 #: r2/lib/strings.py:82
 msgid "your reddit has been created"
-msgstr ""
+msgstr "reddit anda telah dibuat"
 
 #: r2/lib/strings.py:84
 msgid ""
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #: r2/lib/strings.py:100
 msgid "you've been banned"
-msgstr "anda telah diban"
+msgstr "anda telah di-ban"
 
 #: r2/lib/strings.py:101
 msgid "you can view traffic on a promoted link"
@@ -1528,11 +1528,11 @@ msgstr ""
 
 #: r2/lib/strings.py:137
 msgid "your email address has been verfied"
-msgstr ""
+msgstr "alamat email anda telah diverifikasi"
 
 #: r2/lib/strings.py:138
 msgid "Verification failed.  Please try that again"
-msgstr ""
+msgstr "Verifikasi gagal. Coba lagi"
 
 #: r2/lib/strings.py:139
 #, python-format
@@ -1609,7 +1609,7 @@ msgstr ""
 #: r2/lib/strings.py:150
 #, python-format
 msgid "Sorry, the maximum number of comments is %d."
-msgstr ""
+msgstr "Maaf, jumlah maksimum komentar adalah %d."
 
 #: r2/lib/strings.py:151
 #, python-format
@@ -1692,28 +1692,28 @@ msgstr[0] "poin"
 #: r2/lib/strings.py:231
 msgid "link"
 msgid_plural "links"
-msgstr[0] ""
+msgstr[0] "tautan"
 
 #: r2/lib/strings.py:233 r2/lib/pages/pages.py:625
 #: r2/templates/messagecompose.html:70
 msgid "message"
 msgid_plural "messages"
-msgstr[0] ""
+msgstr[0] "pesan"
 
 #: r2/lib/strings.py:234
 msgid "subreddit"
 msgid_plural "subreddits"
-msgstr[0] ""
+msgstr[0] "subreddit"
 
 #: r2/lib/strings.py:235
 msgid "creddit"
 msgid_plural "creddits"
-msgstr[0] ""
+msgstr[0] "creddit"
 
 #: r2/lib/strings.py:238
 msgid "reader"
 msgid_plural "readers"
-msgstr[0] ""
+msgstr[0] "pembaca"
 
 #: r2/lib/strings.py:239
 msgid "subscriber"
@@ -1734,7 +1734,7 @@ msgstr[0] "moderator"
 #: r2/lib/strings.py:244
 msgid "milliseconds"
 msgid_plural "milliseconds"
-msgstr[0] ""
+msgstr[0] "milidetik"
 
 #: r2/lib/strings.py:245 r2/templates/searchbar.html:44
 msgid "second"
@@ -1775,7 +1775,7 @@ msgstr "komentar"
 
 #: r2/lib/template_helpers.py:411 r2/models/builder.py:142
 msgid "friend"
-msgstr ""
+msgstr "teman"
 
 #: r2/lib/template_helpers.py:418
 msgid "submitter"
@@ -1792,7 +1792,7 @@ msgstr "%d-%m-%Y"
 
 #: r2/lib/pages/pages.py:235
 msgid "these reddits"
-msgstr ""
+msgstr "reddit ini"
 
 #: r2/lib/pages/pages.py:245
 msgid "Submit a link"
@@ -1800,7 +1800,7 @@ msgstr "kirimkan tautan"
 
 #: r2/lib/pages/pages.py:255
 msgid "Create your own community"
-msgstr ""
+msgstr "Buat komunitas anda sendiri"
 
 #: r2/lib/pages/pages.py:261
 msgid "reddit gold creddits: now for sale!"
@@ -1820,15 +1820,15 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:414
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: r2/lib/pages/pages.py:415
 msgid "reddiquette"
-msgstr ""
+msgstr "reddiquette"
 
 #: r2/lib/pages/pages.py:425
 msgid "chrome extension"
-msgstr ""
+msgstr "ekstensi chrome"
 
 #: r2/lib/pages/pages.py:429
 msgid "tools"
@@ -1844,11 +1844,11 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:438
 msgid "radio reddit"
-msgstr ""
+msgstr "radio reddit"
 
 #: r2/lib/pages/pages.py:440
 msgid "<3"
-msgstr ""
+msgstr "<3"
 
 #: r2/lib/pages/pages.py:622
 #, python-format
@@ -1861,7 +1861,7 @@ msgstr "login atau mendaftar"
 
 #: r2/lib/pages/pages.py:727
 msgid "request for permission"
-msgstr ""
+msgstr "minta izin"
 
 #: r2/lib/pages/pages.py:755
 msgid "bummer"
@@ -1878,12 +1878,12 @@ msgstr "tentang %(site)s"
 
 #: r2/lib/pages/pages.py:1059
 msgid "search reddits"
-msgstr "cari reddits"
+msgstr "cari reddit"
 
 #: r2/lib/pages/pages.py:1090
 #, python-format
 msgid "your front page reddits (%s)"
-msgstr ""
+msgstr "reddit halaman depan anda (%s)"
 
 #: r2/lib/pages/pages.py:1151 r2/templates/createsubreddit.html:189
 #: r2/templates/spotlightlisting.html:54
@@ -1896,11 +1896,11 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1200
 msgid "an unknown amount"
-msgstr ""
+msgstr "jumlah yang tidak diketahui"
 
 #: r2/lib/pages/pages.py:1208
 msgid "less than a day"
-msgstr ""
+msgstr "kurang dari sehari"
 
 #: r2/lib/pages/pages.py:1217
 #, python-format
@@ -1953,7 +1953,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:2285
 msgid "This feature is currently unavailable. Sorry"
-msgstr ""
+msgstr "Fitur tidak tersedia untuk saat ini. Maaf"
 
 #: r2/lib/pages/pages.py:2457
 msgid "grant flair"
@@ -1965,15 +1965,15 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:2658
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #: r2/lib/pages/pages.py:2658
 msgid "note"
-msgstr ""
+msgstr "catatan"
 
 #: r2/lib/pages/pages.py:2658
 msgid "friendship"
-msgstr ""
+msgstr "persahabatan"
 
 #: r2/lib/pages/pages.py:2664
 msgid "add a friend"
@@ -1985,7 +1985,7 @@ msgstr "temanmu"
 
 #: r2/lib/pages/pages.py:2696
 msgid "blocked users"
-msgstr ""
+msgstr "user yang diblokir"
 
 #: r2/lib/pages/pages.py:2712
 msgid "add approved submitter"
@@ -2003,11 +2003,11 @@ msgstr "tambah moderator"
 #: r2/lib/pages/pages.py:2736
 #, python-format
 msgid "moderators of %(reddit)s"
-msgstr ""
+msgstr "moderator-moderator dari %(reddit)s"
 
 #: r2/lib/pages/pages.py:2759
 msgid "banned users"
-msgstr "user yang diban"
+msgstr "user yang di-ban"
 
 #: r2/lib/pages/pages.py:2776
 msgid "share traffic"
@@ -2019,7 +2019,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:3731 r2/templates/accountactivitybox.html:24
 msgid "account activity"
-msgstr ""
+msgstr "aktifitas akun"
 
 #: r2/models/builder.py:103
 #, python-format
@@ -2033,11 +2033,11 @@ msgstr ""
 #: r2/models/link.py:530
 #, python-format
 msgid "approved by %s"
-msgstr ""
+msgstr "disetujui oleh %s"
 
 #: r2/models/link.py:532
 msgid "approved by a moderator"
-msgstr ""
+msgstr "disetujui oleh seorang moderator"
 
 #: r2/models/link.py:805
 msgid "comment score below threshold"
@@ -2045,11 +2045,11 @@ msgstr "nilai komentar dibawah rata-rata"
 
 #: r2/models/link.py:810
 msgid "blocked user"
-msgstr ""
+msgstr "user terblokir"
 
 #: r2/models/link.py:1125
 msgid "comment reply"
-msgstr ""
+msgstr "balasan komentar"
 
 #: r2/models/link.py:1131
 msgid "post reply"
@@ -2137,7 +2137,7 @@ msgstr ""
 
 #: r2/models/subreddit.py:945
 msgid "on reddit.com"
-msgstr ""
+msgstr "di reddit.com"
 
 #: r2/templates/admintranslations.html:62
 msgid "disable"
@@ -2323,7 +2323,7 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:117 r2/templates/upgradebuttons.html:83
 msgid "use this code:"
-msgstr ""
+msgstr "gunakan kode ini:"
 
 #: r2/templates/buttondemopanel.html:127
 msgid "more badges and buttons"
@@ -2331,23 +2331,23 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:158 r2/templates/upgradebuttons.html:108
 msgid "view code"
-msgstr ""
+msgstr "lihat kode"
 
 #: r2/templates/buttondemopanel.html:159 r2/templates/upgradebuttons.html:109
 msgid "hide code"
-msgstr ""
+msgstr "sembunyikan kode"
 
 #: r2/templates/buttontypes.html:189
 msgid "quite controversial"
-msgstr ""
+msgstr "cukup kontroversial"
 
 #: r2/templates/buttontypes.html:193
 msgid "uncontroversial"
-msgstr ""
+msgstr "tidak kontroversial"
 
 #: r2/templates/buttontypes.html:195
 msgid "quite uncontroversial"
-msgstr ""
+msgstr "cukup tidak kontroversial"
 
 #: r2/templates/buttontypes.html:212
 msgid "Vote on this article"
@@ -2365,11 +2365,11 @@ msgstr ""
 
 #: r2/templates/captcha.html:49
 msgid "(sorry)"
-msgstr ""
+msgstr "(maaf)"
 
 #: r2/templates/captcha.html:49
 msgid "are you human?"
-msgstr ""
+msgstr "apakah anda manusia?"
 
 #: r2/templates/captcha.html:75
 msgid "human?"
@@ -2377,23 +2377,23 @@ msgstr "manusia?"
 
 #: r2/templates/clickgadget.html:30
 msgid "clear"
-msgstr ""
+msgstr "hapus"
 
 #: r2/templates/comment.html:58
 msgid "by"
-msgstr ""
+msgstr "oleh"
 
 #: r2/templates/comment.html:61
 msgid "in"
-msgstr ""
+msgstr "dalam"
 
 #: r2/templates/comment.html:86 r2/templates/message.html:50
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: r2/templates/comment.html:86
 msgid "&ndash;"
-msgstr ""
+msgstr "&ndash;"
 
 #: r2/templates/comment.html:92
 msgid "deleted comment from"
@@ -2446,7 +2446,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:55
 msgid "name"
-msgstr ""
+msgstr "nama"
 
 #: r2/templates/createsubreddit.html:69
 msgid "e.g., slashdot: news for nerds, stuff that matters"
@@ -2455,7 +2455,7 @@ msgstr ""
 #: r2/templates/createsubreddit.html:69 r2/templates/newlink.html:55
 #: r2/templates/promotelinkform.html:257
 msgid "title"
-msgstr ""
+msgstr "judul"
 
 #: r2/templates/createsubreddit.html:81
 msgid "500 characters max.  Make them count."
@@ -2463,19 +2463,19 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:81
 msgid "description"
-msgstr ""
+msgstr "deskripsi"
 
 #: r2/templates/createsubreddit.html:90
 msgid "language"
-msgstr ""
+msgstr "bahasa"
 
 #: r2/templates/createsubreddit.html:101
 msgid "type"
-msgstr ""
+msgstr "tipe"
 
 #: r2/templates/createsubreddit.html:104
 msgid "public"
-msgstr ""
+msgstr "publik"
 
 #: r2/templates/createsubreddit.html:105
 msgid "anyone can view and submit"
@@ -2499,7 +2499,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:117 r2/templates/prefoptions.html:243
 msgid "content options"
-msgstr ""
+msgstr "opsi konten"
 
 #: r2/templates/createsubreddit.html:120
 msgid "any"
@@ -2527,7 +2527,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:133
 msgid "other options"
-msgstr ""
+msgstr "opsi lainnya"
 
 #: r2/templates/createsubreddit.html:140
 msgid "viewers must be over eighteen years old"
@@ -2555,7 +2555,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:189 r2/templates/usertext.html:72
 msgid "hide help"
-msgstr "sembunyikan batuan"
+msgstr "sembunyikan bantuan"
 
 #: r2/templates/createsubreddit.html:193
 msgid ""
@@ -2574,7 +2574,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:207
 msgid "leaves this page"
-msgstr ""
+msgstr "tinggalkan halaman ini"
 
 #: r2/templates/createsubreddit.html:216
 msgid "upload header image"
@@ -2644,7 +2644,7 @@ msgstr ""
 
 #: r2/templates/flairlist.html:38
 msgid "back to the beginning"
-msgstr ""
+msgstr "kembali ke awal"
 
 #: r2/templates/flairlist.html:46 r2/templates/flairtemplatelist.html:35
 msgid "flair text"
@@ -2672,11 +2672,11 @@ msgstr "berikutnya"
 
 #: r2/templates/flairpane.html:25
 msgid "flair settings"
-msgstr ""
+msgstr "pengaturan flair"
 
 #: r2/templates/flairpane.html:30
 msgid "flair options"
-msgstr ""
+msgstr "opsi flair"
 
 #: r2/templates/flairpane.html:39
 msgid "enable user flair in this subreddit"
@@ -2688,31 +2688,31 @@ msgstr ""
 
 #: r2/templates/flairpane.html:53
 msgid "flair position"
-msgstr ""
+msgstr "posisi flair"
 
 #: r2/templates/flairpane.html:55
 msgid "left"
-msgstr ""
+msgstr "kiri"
 
 #: r2/templates/flairpane.html:56
 msgid "position flair to the left of the username"
-msgstr ""
+msgstr "posisikan flair di sebelah kiri username"
 
 #: r2/templates/flairpane.html:58
 msgid "right"
-msgstr ""
+msgstr "kanan"
 
 #: r2/templates/flairpane.html:59
 msgid "position flair to the right of the username"
-msgstr ""
+msgstr "posisikan flair di sebelah kanan username"
 
 #: r2/templates/flairprefs.html:30
 msgid "Show my flair on this reddit. It looks like:"
-msgstr ""
+msgstr "tampilkan flair saya di reddit ini. Akan terlihat seperti:"
 
 #: r2/templates/flairselector.html:23
 msgid "select flair"
-msgstr ""
+msgstr "pilih flair"
 
 #: r2/templates/flairselector.html:52
 msgid "flair selection unavailable"
@@ -2720,7 +2720,7 @@ msgstr ""
 
 #: r2/templates/flairtemplatelist.html:34
 msgid "user can edit?"
-msgstr ""
+msgstr "user dapat menyunting?"
 
 #: r2/templates/flairtemplatelist.html:49
 msgid "clear all flair templates"
@@ -2728,11 +2728,11 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:66
 msgid "show url"
-msgstr ""
+msgstr "tampilkan tautan"
 
 #: r2/templates/frametoolbar.html:69
 msgid "hide url"
-msgstr ""
+msgstr "sembunyikan tautan"
 
 #: r2/templates/frametoolbar.html:73
 msgid "load a random link"
@@ -2744,19 +2744,19 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:88
 msgid "visit your userpage"
-msgstr ""
+msgstr "kunjungi userpage anda"
 
 #: r2/templates/frametoolbar.html:92
 msgid "login / register"
-msgstr ""
+msgstr "login / daftar"
 
 #: r2/templates/frametoolbar.html:100
 msgid "new mail"
-msgstr ""
+msgstr "mail baru"
 
 #: r2/templates/frametoolbar.html:113 r2/templates/frametoolbar.html:114
 msgid "visit this link without the toolbar"
-msgstr ""
+msgstr "kunjungu tautan ini tanpa toolbar"
 
 #: r2/templates/frametoolbar.html:121
 msgid "click to visit the main page for this submission"
@@ -2830,19 +2830,19 @@ msgstr ""
 
 #: r2/templates/gold.html:105 r2/templates/subreddit.html:64
 msgid "subscribe"
-msgstr ""
+msgstr "berlangganan"
 
 #: r2/templates/gold.html:111
 msgid "How many months?"
-msgstr ""
+msgstr "Berapa bulan?"
 
 #: r2/templates/gold.html:113 r2/templates/gold.html:174
 msgid "buy"
-msgstr ""
+msgstr "beli"
 
 #: r2/templates/gold.html:119
 msgid "How much gold do you wish to bestow?"
-msgstr ""
+msgstr "Berapa banyak gold yang ingin anda anugerahkan?"
 
 #: r2/templates/gold.html:130
 #, python-format
@@ -2883,19 +2883,19 @@ msgstr ""
 
 #: r2/templates/goldpayment.html:37
 msgid "The following gift note will be attached:"
-msgstr ""
+msgstr "Catatan hadiah berikut akan dilampirkan:"
 
 #: r2/templates/goldpayment.html:54
 msgid "Please select a payment method."
-msgstr ""
+msgstr "Mohon pilih metode pembayaran"
 
 #: r2/templates/goldpayment.html:77
 msgid "Google Checkout"
-msgstr ""
+msgstr "Google Checkout"
 
 #: r2/templates/goldpayment.html:89
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: r2/templates/goldpayment.html:93
 msgid ""
@@ -2904,11 +2904,11 @@ msgstr ""
 
 #: r2/templates/link.html:71
 msgid "Adult content: Not Safe For Work"
-msgstr ""
+msgstr "Konten dewasa: Not Safe For Work"
 
 #: r2/templates/link.html:72
 msgid "NSFW"
-msgstr ""
+msgstr "NSFW"
 
 #: r2/templates/link.html:90
 msgid ""
@@ -2977,7 +2977,7 @@ msgstr ""
 
 #: r2/templates/linkontrial.html:67
 msgid "kosher"
-msgstr ""
+msgstr "halal"
 
 #: r2/templates/linkontrial.html:70
 msgid "thanks for voting!"
@@ -2985,7 +2985,7 @@ msgstr ""
 
 #: r2/templates/linkontrial.html:73 r2/templates/spotlightlisting.html:71
 msgid "Click here for more info."
-msgstr ""
+msgstr "Klik disini untuk info lebih lanjut."
 
 #: r2/templates/linkontrial.html:77
 msgid "those arrows are only for show; they don't actually do anything."
@@ -3001,7 +3001,7 @@ msgstr "tidak ada apapun di sini"
 
 #: r2/templates/login.html:34 r2/templates/register.html:34
 msgid "you are logged in. go use the site!"
-msgstr "anda telah masuk, gunakan situs ini"
+msgstr "anda telah masuk. mulai gunakan situs ini!"
 
 #: r2/templates/login.html:66 r2/templates/password.html:38
 #: r2/templates/prefdelete.html:53 r2/templates/register.html:66
@@ -3087,7 +3087,7 @@ msgstr ""
 
 #: r2/templates/message.html:121
 msgid "show parent"
-msgstr ""
+msgstr "tampilkan induk"
 
 #: r2/templates/messagecompose.html:31
 msgid "send a message"
@@ -3099,11 +3099,11 @@ msgstr ""
 
 #: r2/templates/messagecompose.html:51
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 #: r2/templates/messagecompose.html:63
 msgid "subject"
-msgstr ""
+msgstr "subyek"
 
 #: r2/templates/morechildren.html:38
 msgid "load more comments"
@@ -3137,7 +3137,7 @@ msgstr ""
 
 #: r2/templates/newlink.html:74
 msgid "suggest title"
-msgstr ""
+msgstr "sarankan judul"
 
 #: r2/templates/newlink.html:83 r2/templates/paymentform.html:115
 #: r2/templates/paymentform.html:121 r2/templates/sharelink.html:36
@@ -3147,11 +3147,11 @@ msgstr ""
 
 #: r2/templates/newlink.html:83
 msgid "text"
-msgstr ""
+msgstr "teks"
 
 #: r2/templates/newlink.html:94
 msgid "choose a subreddit"
-msgstr ""
+msgstr "pilih subreddit"
 
 #: r2/templates/oauth2authorization.html:28
 #, python-format
@@ -3276,47 +3276,47 @@ msgstr ""
 
 #: r2/templates/paymentform.html:113
 msgid "first name"
-msgstr ""
+msgstr "nama depan"
 
 #: r2/templates/paymentform.html:114
 msgid "last name"
-msgstr ""
+msgstr "nama belakang"
 
 #: r2/templates/paymentform.html:115
 msgid "company"
-msgstr ""
+msgstr "perusahaan"
 
 #: r2/templates/paymentform.html:116
 msgid "address"
-msgstr ""
+msgstr "alamat"
 
 #: r2/templates/paymentform.html:117
 msgid "city"
-msgstr ""
+msgstr "kota"
 
 #: r2/templates/paymentform.html:118
 msgid "state"
-msgstr ""
+msgstr "provinsi"
 
 #: r2/templates/paymentform.html:119
 msgid "zip"
-msgstr ""
+msgstr kode pos
 
 #: r2/templates/paymentform.html:120
 msgid "country"
-msgstr ""
+msgstr "negara"
 
 #: r2/templates/paymentform.html:121
 msgid "phone"
-msgstr ""
+msgstr "telepon"
 
 #: r2/templates/paymentform.html:122
 msgid "card number"
-msgstr ""
+msgstr "nomor angka"
 
 #: r2/templates/paymentform.html:122
 msgid "(14-17 digits)"
-msgstr ""
+msgstr "(14-17 angka)"
 
 #: r2/templates/paymentform.html:123
 msgid "expiration date"
@@ -3423,15 +3423,15 @@ msgstr ""
 
 #: r2/templates/preffeeds.html:64
 msgid "links you've liked"
-msgstr ""
+msgstr "Tautan yang anda sukai"
 
 #: r2/templates/preffeeds.html:67
 msgid "links you've disliked"
-msgstr ""
+msgstr "Tautan yang anda tidak sukai"
 
 #: r2/templates/preffeeds.html:70
 msgid "links you've hidden"
-msgstr ""
+msgstr "Tautan yang anda sembunyikan"
 
 #: r2/templates/preffeeds.html:77 r2/templates/preffeeds.html:97
 msgid "everything"
@@ -3483,7 +3483,7 @@ msgstr "tampilkan tautan dengan toolbar reddit"
 
 #: r2/templates/prefoptions.html:113 r2/templates/promotelinkform.html:352
 msgid "media"
-msgstr ""
+msgstr "media"
 
 #: r2/templates/prefoptions.html:116
 msgid "show thumbnails next to links"
@@ -3525,7 +3525,7 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:143
 msgid "show me new links on the front page"
-msgstr "perlihatkan tautan yang ada dihalaman depan"
+msgstr "perlihatkan tautan yang ada di halaman depan"
 
 #: r2/templates/prefoptions.html:146
 msgid "show me links I've recently viewed"
@@ -3541,7 +3541,7 @@ msgstr "jangan tampilkan tautan setelah saya menyukai tersebut"
 
 #: r2/templates/prefoptions.html:150 r2/templates/prefoptions.html:154
 msgid "(except my own)"
-msgstr ""
+msgstr "(kecuali punya saya)"
 
 #: r2/templates/prefoptions.html:152
 msgid "don't show links after i've disliked them"
@@ -3637,11 +3637,11 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:234
 msgid "show user flair"
-msgstr ""
+msgstr "tampilkan flair user"
 
 #: r2/templates/prefoptions.html:237
 msgid "show promote tab on front page"
-msgstr ""
+msgstr "tampilkan tab promosi di halaman depan"
 
 #: r2/templates/prefoptions.html:245
 msgid "i am over eighteen years old and willing to view adult content"
@@ -3729,19 +3729,19 @@ msgstr ""
 
 #: r2/templates/prefupdate.html:28
 msgid "update your email or password"
-msgstr ""
+msgstr "perbaharui email atau password anda"
 
 #: r2/templates/prefupdate.html:31
 msgid "verify your email"
-msgstr ""
+msgstr "verifikasi email anda"
 
 #: r2/templates/prefupdate.html:33
 msgid "update your email"
-msgstr ""
+msgstr "perbaharui email anda"
 
 #: r2/templates/prefupdate.html:36
 msgid "update your password"
-msgstr ""
+msgstr "perbaharui password anda"
 
 #: r2/templates/prefupdate.html:45
 msgid "not set"
@@ -3769,15 +3769,15 @@ msgstr ""
 
 #: r2/templates/prefupdate.html:65
 msgid "(required)"
-msgstr ""
+msgstr "(dibutuhkan)"
 
 #: r2/templates/prefupdate.html:65
 msgid "current password"
-msgstr ""
+msgstr "password saat ini"
 
 #: r2/templates/prefupdate.html:80 r2/templates/resetpassword.html:38
 msgid "new password"
-msgstr ""
+msgstr "password baru"
 
 #: r2/templates/prefupdate.html:96
 msgid "send verification email"
@@ -3804,13 +3804,13 @@ msgstr ""
 
 #: r2/templates/printablebuttons.html:51
 msgid "approve"
-msgstr ""
+msgstr "setujui"
 
 #: r2/templates/printablebuttons.html:52
 #: r2/templates/printablebuttons.html:143
 #: r2/templates/subredditinfobar.html:82
 msgid "approved"
-msgstr ""
+msgstr "disetujui"
 
 #: r2/templates/printablebuttons.html:58
 msgid "report"
@@ -3875,15 +3875,15 @@ msgstr "tersembunyi"
 
 #: r2/templates/printablebuttons.html:212
 msgid "reject"
-msgstr ""
+msgstr "tolak"
 
 #: r2/templates/printablebuttons.html:217
 msgid "accept"
-msgstr ""
+msgstr "terima"
 
 #: r2/templates/printablebuttons.html:217
 msgid "accepted"
-msgstr ""
+msgstr "diterima"
 
 #: r2/templates/printablebuttons.html:223
 msgid "traffic"
@@ -3900,12 +3900,12 @@ msgstr ""
 #: r2/templates/printablebuttons.html:235
 #, python-format
 msgid "%d spam"
-msgstr ""
+msgstr "%d spam"
 
 #: r2/templates/printablebuttons.html:241
 #, python-format
 msgid "%d kosher"
-msgstr ""
+msgstr "%d halal"
 
 #: r2/templates/printablebuttons.html:260
 #: r2/templates/printablebuttons.html:319
@@ -3919,7 +3919,7 @@ msgstr "konteks"
 
 #: r2/templates/printablebuttons.html:267
 msgid "full comments"
-msgstr ""
+msgstr "komentar penuh"
 
 #: r2/templates/printablebuttons.html:277
 #: r2/templates/printablebuttons.html:284
@@ -3933,11 +3933,11 @@ msgstr "balas"
 
 #: r2/templates/printablebuttons.html:326
 msgid "block user"
-msgstr ""
+msgstr "blokir user"
 
 #: r2/templates/printablebuttons.html:326
 msgid "blocked"
-msgstr ""
+msgstr "diblokir"
 
 #: r2/templates/printablebuttons.html:330
 msgid "mark unread"
@@ -3953,19 +3953,19 @@ msgstr ""
 
 #: r2/templates/profilebar.html:53
 msgid "+ friends"
-msgstr ""
+msgstr "+ teman"
 
 #: r2/templates/profilebar.html:53
 msgid "- friends"
-msgstr ""
+msgstr "- teman"
 
 #: r2/templates/profilebar.html:91
 msgid "link karma"
-msgstr ""
+msgstr "karma tautan"
 
 #: r2/templates/profilebar.html:96
 msgid "comment karma"
-msgstr ""
+msgstr "karma komentar"
 
 #: r2/templates/profilebar.html:110
 msgid "of reddit gold remaining"
@@ -3981,7 +3981,7 @@ msgstr "kirim pesan"
 
 #: r2/templates/profilebar.html:143
 msgid "redditor for"
-msgstr ""
+msgstr "redditor selama"
 
 #: r2/templates/promote_graph.html:171
 msgid "total promotion traffic"
@@ -4177,7 +4177,7 @@ msgstr ""
 
 #: r2/templates/searchbar.html:51
 msgid "satisfied?"
-msgstr ""
+msgstr "puas?"
 
 #: r2/templates/searchbar.html:55
 msgid "thanks for your feedback!"
@@ -4197,7 +4197,7 @@ msgstr ""
 
 #: r2/templates/searchform.html:40
 msgid "search for {text} in url"
-msgstr ""
+msgstr "cari {text} dalam url"
 
 #: r2/templates/searchform.html:42
 msgid "search for {text} in self post contents"
@@ -4296,7 +4296,7 @@ msgstr ""
 #: r2/templates/spotlightlisting.html:74
 #: r2/templates/spotlightlisting.html:101
 msgid "This element has been disabled."
-msgstr ""
+msgstr "Elemen ini telah dinonaktifkan."
 
 #: r2/templates/spotlightlisting.html:76
 #: r2/templates/spotlightlisting.html:103
@@ -4375,19 +4375,19 @@ msgstr ""
 
 #: r2/templates/subredditinfobar.html:75
 msgid "a community for"
-msgstr ""
+msgstr "komunitas untuk"
 
 #: r2/templates/subredditinfobar.html:81
 msgid "approve this reddit"
-msgstr ""
+msgstr "setujui reddit ini"
 
 #: r2/templates/subredditinfobar.html:89
 msgid "ban this reddit"
-msgstr ""
+msgstr "ban reddit ini"
 
 #: r2/templates/subredditinfobar.html:90 r2/templates/subscriptionbox.html:57
 msgid "banned"
-msgstr "diban"
+msgstr "di-ban"
 
 #: r2/templates/subredditstylesheet.html:41
 msgid "stylesheet"
@@ -4480,16 +4480,16 @@ msgstr ""
 
 #: r2/templates/thanks.html:62
 msgid "claim"
-msgstr ""
+msgstr "klaim"
 
 #: r2/templates/trophycase.html:74
 msgid "dust"
-msgstr ""
+msgstr "debu"
 
 #: r2/templates/trophycase.html:107
 #, python-format
 msgid "%d more"
-msgstr ""
+msgstr "%d lagi"
 
 #: r2/templates/unfoundpage.html:25
 msgid "the page you requested does not exist"
@@ -4501,15 +4501,15 @@ msgstr ""
 
 #: r2/templates/userawards.html:54
 msgid "won by"
-msgstr ""
+msgstr "dimenangkan oleh"
 
 #: r2/templates/userawards.html:57
 msgid "recently won by"
-msgstr ""
+msgstr "baru-baru ini dimenangkan oleh"
 
 #: r2/templates/userawards.html:85
 msgid "for this"
-msgstr ""
+msgstr "untuk ini"
 
 #: r2/templates/userawards.html:95
 msgid "Special awards:"
@@ -4525,11 +4525,11 @@ msgstr ""
 
 #: r2/templates/useriphistory.html:40
 msgid "Location"
-msgstr ""
+msgstr "Lokasi"
 
 #: r2/templates/useriphistory.html:41
 msgid "Last Visit"
-msgstr ""
+msgstr "Kunjungan Terakhir"
 
 #: r2/templates/userlist.html:37
 msgid "add"
@@ -4579,19 +4579,19 @@ msgstr "beberapa bahasa"
 
 #: r2/templates/utils.html:295
 msgid "Type: "
-msgstr ""
+msgstr "Tipe: "
 
 #: r2/templates/utils.html:305
 msgid "uploading"
-msgstr ""
+msgstr "sedang mengunggah"
 
 #: r2/templates/utils.html:307
 msgid "upload"
-msgstr ""
+msgstr "unggah"
 
 #: r2/templates/utils.html:516
 msgid "popular choices"
-msgstr ""
+msgstr "pilihan populer"
 
 #: r2/templates/widgetdemopanel.html:111
 #, python-format
@@ -4770,10 +4770,10 @@ msgstr ""
 #~ msgstr "tuliskan huruf dari gambar di atas"
 
 #~ msgid "unban"
-#~ msgstr "tidak diban"
+#~ msgstr "jangan di-ban"
 
 #~ msgid "unbanned"
-#~ msgstr "tidak diban"
+#~ msgstr "tidak di-ban"
 
 #~ msgid "ban"
 #~ msgstr "ban"
